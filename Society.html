@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Technology</title>
+
+    <style>
+
+        html, body {
+	    margin-top: 20px;
+            margin-left: 0;
+            margin-right: 0;
+	    padding: 0;
+        }
+
+        body {
+	    background-color: black;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+	    margin-top: 50px;
+        }
+
+        .image-container img {
+            display: block;
+        }
+
+        .overlay-text {
+            padding-left: 80px;
+            padding-right:80px;
+            padding-top:50px;
+            padding-bottom:50px;
+            margin-left: 175px;
+	    margin-right: 175px;
+            position: absolute;
+            color: White; 
+            background: rgba(0, 0, 0, .4); 
+            box-sizing: border-box;
+            margin-top:-555px;
+    	    text-align:center;
+            font-size: 85px;
+    	    font-family: Helvetica;
+            line-height: 1.5;
+        }
+
+       a {
+	    padding-top: 20px;
+	    color: White;
+	    text-decoration: none; 	
+	    font-size: 25px;
+    	    margin-left: 80px;
+       }
+       	
+       .link {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+       }
+
+       .logo {
+	    display: flex;
+            align-items: center;
+       }
+       
+       .title1 {
+	    margin-top: 70px;
+	    margin-bottom: 70px;
+	    text-align: center;
+	    color: White;
+	    font-size: 40px;
+	    font-family: Trebuchet MS;
+       }
+
+       .text1 {
+	     font-weight: 320;
+	     position: absolute;
+	     margin-top: 30px;
+	     margin-left: 540px;
+	     margin-bottom: 40px;
+	     margin-right: 50px;
+	     color: White;
+	     font-size: 25px;
+	     font-family: Helvetica;
+	     line-height: 2;
+       }
+
+       .example {
+            display: flex;
+            align-items: center;
+            margin-left: 100px;
+            margin-bottom: 70px;
+       }
+
+       .img1 {
+	     margin-left: -50px;
+	     position: relative;
+       }
+
+       .game {
+   	    vertical-align: top;
+    	    display: inline-block;
+    	    text-align: center;
+       }
+   
+       .title2 {
+	    margin-top: 70px;
+	    margin-bottom: 70px;
+	    text-align: center;
+	    color: White;
+	    font-size: 40px;
+	    font-family: Trebuchet MS;
+       }
+
+       .text2 {
+	     padding-right: 60px;
+	     padding-left: 50px;
+             color: White;
+             font-size: 24px;
+             font-family: Helvetica;
+             line-height: 2.1;
+             text-align: left;
+             font-weight: 340;   
+       }
+
+       .img2 {
+	     margin-left: -20px;
+	     margin-top: 0px;
+	     position: relative;
+       }
+
+       .text3 {
+	     padding-right: 60px;
+	     padding-left: 50px;
+             color: White;
+             font-size: 24px;
+             font-family: Helvetica;
+             line-height: 2.1;
+             text-align: left;
+             font-weight: 340;   
+       }
+
+       .img3 {
+	     margin-top: 70px;
+	     margin-left: -20px;
+	     position: relative;
+       }
+
+       .title3 {
+	    margin-top: 40px;
+	    margin-bottom: 70px;
+	    text-align: center;
+	    color: White;
+	    font-size: 40px;
+	    font-family: Trebuchet MS;
+       }
+
+       .concert {
+            display: flex;
+            align-items: center;
+            margin-bottom: 70px;
+       }
+
+       .text4 {
+	     font-weight: 320;
+	     position: absolute;
+	     margin-top: 15px;
+	     margin-left: 50px;
+	     margin-right: 750px;
+	     margin-bottom: 40px;
+	     color: White;
+	     font-size: 25px;
+	     font-family: Helvetica;
+	     line-height: 2;
+       }
+
+       .img4 {
+	     margin-top:-20px;
+	     margin-left:740px;
+	     position: relative;
+
+       }
+
+       .music {
+            display: flex;
+            align-items: center;
+            margin-bottom: 70px;
+       }
+
+       .text5 {
+	     font-weight: 320;
+	     position: absolute;
+	     margin-top: 70px;
+	     margin-left: 750px;
+	     margin-right: 40px;
+	     margin-bottom: 70px;
+	     color: White;
+	     font-size: 25px;
+	     font-family: Helvetica;
+	     line-height: 2;
+       }
+
+       .img5 {
+	     margin-top:0px;
+	     margin-left:40px;
+	     position: relative;
+       }
+
+       .title4 {
+	    margin-bottom: 70px;
+	    text-align: center;
+	    color: White;
+	    font-size: 40px;
+	    font-family: Trebuchet MS;
+       }
+
+       .park {
+   	    vertical-align: top;
+    	    display: inline-block;
+    	    text-align: center;
+       }
+       
+       .text6 {
+	     padding-right: 60px;
+	     padding-left: 50px;
+             color: White;
+             font-size: 24px;
+             font-family: Helvetica;
+             line-height: 2.1;
+             text-align: left;
+             font-weight: 340;   
+       }
+
+       .img6 {
+	     margin-left: -20px;
+	     margin-top: 70px;
+	     position: relative;
+       }
+
+       .text7 {
+	     padding-right: 60px;
+	     padding-left: 50px;
+             color: White;
+             font-size: 24px;
+             font-family: Helvetica;
+             line-height: 2.1;
+             text-align: left;
+             font-weight: 340;   
+       }
+
+       .img7 {
+	     margin-left: -20px;
+	     position: relative;
+       }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="link">
+ <img src="logo.jpg"alt ="robot.jpg" width = 10% height = 10%>
+ <a href="index.html">Home</a>
+ <a href="About.html">About</a>
+ <a href="Society.html">AR/VR in Society</a>
+ <a href="pro_con.html">Pros/Cons of AR/VR</a>
+ <a href="Bibliography.html">Bibliography</a>
+</div>
+
+</header>
+
+    <div class="image-container">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/08/city-in-Zenith-The-Last-City-Mikami-in-RUINSMAGUS-giant-in-Shores-of-Loci.jpg" alt ="VR.jpg" width = 100% height = 100%>
+        <div class="overlay-text">
+            AR / VR in Entertainment Field
+        </div>
+    </div>
+
+    <div class="title1">
+	<p>Three Examples of AR / VR in Entertainment Industry</p>
+    </div>
+
+    <div class="example">
+    	<div class="img1">
+	    <img src= "https://media.licdn.com/dms/image/D5612AQEYexfVJmnrPA/article-cover_image-shrink_720_1280/0/1702710076971?e=2147483647&v=beta&t=QKOjD65uP2hRnkm5CzHUZpi_PA90w101J1cITiyYs7A" alt ="VR.jpg" width = 59% height = 59%>
+    	</div>   
+    	<div class="text1">
+	    <ul>
+		<li>Gaming: VR gaming offers players an immersive experience by transporting them into entirely digital worlds.</li>
+		<li>Music shows and concerts: VR concerts allow festival-goers to experience immersive performances and show in a 360-degree virtual environment.</li>
+		<li>Amusement and theme parks: Using AR headsets or mobile devices, theme park visitors can engage with virtual objects, characters, and effects that blend seamlessly with the physical world.</li>
+	    </ul>
+    	</div>
+    </div>
+    
+    <div class="title2">
+	<p>Part 1: Examples of VR Games</p>
+    </div>
+
+    <div class="game">
+    	<div class="img2">
+	    <img src= "https://scontent.oculuscdn.com/v/t64.5771-25/39031501_3517095351946928_1585497579858103978_n.png?_nc_cat=109&ccb=1-7&_nc_sid=6e7a0a&_nc_ohc=1tHpvEGEcKMQ7kNvgGGksCq&_nc_ht=scontent.oculuscdn.com&oh=00_AYAbG3lxoe29prmaXPGiHmEISl26rM5ETPkhnDywLOf8jw&oe=665C5573" alt ="VR.jpg" width = 90% height = 90%>
+    	</div>   
+    	<div class="text2">
+	    <p>Resident Evil 4 VR takes the classic survival horror game and transforms it with virtual reality technology. Players experience the game from a first-person perspective, enhancing immersion and tension. The VR adaptation utilizes motion controls for aiming, shooting, and interacting with the environment, making the gameplay more engaging and interactive. This VR version retains the original game's storyline and atmosphere but provides a fresh and intense experience by placing players directly in the shoes of the protagonist, Leon S. Kennedy.</p>
+    	</div>
+    </div>
+
+    <div class="game">
+    	<div class="img3">
+	    <img src= "https://i.ytimg.com/vi/pa4vrynwkwY/maxresdefault.jpg" alt ="VR.jpg" width = 90% height = 90%>
+    	</div>   
+    	<div class="text3">
+	    <p>Beat Saber is a virtual reality rhythm game that uses VR technology to immerse players in a dynamic, music-driven experience. Players use motion controllers to wield virtual sabers, slicing through blocks representing musical beats as they fly toward them. The game combines fast-paced gameplay with intuitive controls and visually striking environments, creating an engaging and immersive experience. The precise tracking and responsive feedback of VR make Beat Saber a highly interactive and physically engaging game, offering a unique blend of music, movement, and virtual reality.</p>
+    	</div>
+    </div>
+
+    <div class="title3">
+	<p>Part 2: Examples of AR / VR Concerts</p>
+    </div>
+
+    <div class="music">
+	<div class="text5">
+	     <p>Ariana Grande's VR performance in Fortnite was a groundbreaking event that combined music with immersive, interactive elements. The concert featured Grande performing amidst a series of fantastical, multimedia experiences, such as magical llamas, rainbow trails, and maze challenges, which fully utilized the capabilities of the Fortnite metaverse​</p>
+	</div>
+	<div class="img5">
+	     <img src= "https://cdn.vox-cdn.com/thumbor/KyE60_ALbDn9gp5tIVHnKUdXEJI=/0x0:3840x2160/1200x628/filters:focal(1920x1080:1921x1081)/cdn.vox-cdn.com/uploads/chorus_asset/file/22771205/Fortnite_20210807141447.jpg" alt ="VR.jpg" width = 53% height = 55%>
+    	</div>   	
+    </div>
+
+    <div class="concert">
+	<div class="text4">
+	     <p>Maroon 5 has been actively incorporating augmented reality (AR) into their concerts, particularly notable during their "M5LV The Vegas Residency." At these shows, fans have the opportunity to enhance their live concert experience through AR technology by using their smartphones. With partnerships such as the one with Snapchat, concertgoers can engage with interactive AR features, making the performances even more immersive and visually captivating.</p>
+	</div>
+	<div class="img4">
+	     <img src= "https://static.pollstar.com/wp-content/uploads/2022/05/image004.jpg" alt ="VR.jpg" width = 90% height = 75%>
+    	</div>   	
+    </div>
+
+    <div class="title4">
+	<p>Part 3: Examples of AR in Theme Parks</p>
+    </div>
+
+    <div class="park">
+    	<div class="img7">
+	    <img src= "https://gameranx.com/wp-content/uploads/2023/01/Super-Nintendo-World-Mario-Kart-1024x576.png" alt ="VR.jpg" width = 90% height = 90%>
+    	</div>   
+    	<div class="text7">
+	    <p>Mario Kart VR at Universal Studios Japan is an exciting and immersive ride that combines real-world settings with augmented reality (AR) elements. The AR technology overlays 3D images onto the physical world, allowing riders to see and interact with characters and items from the Mario universe. Riders can earn points by collecting coins and defeating enemies using virtual Koopa shells, which are fired by turning their heads to aim. The ride vehicles follow a predetermined track, but participants use steering wheels to respond to directional arrows in the AR display, adding a layer of interactivity. This combination of real and virtual elements creates a dynamic and engaging experience that brings the beloved Mario Kart game to life in a new way.<p>
+    	</div>
+    </div>
+
+    <div class="park">
+    	<div class="img6">
+	    <img src= "https://i.ytimg.com/vi/S-Te7MAPpgY/maxresdefault.jpg" alt ="VR.jpg" width = 90% height = 90%>
+    	</div>   
+    	<div class="text6">
+	    <p>The Final Fantasy XR Ride at Universal Studios Japan is a unique virtual reality roller coaster that offers fans an immersive experience through the worlds of the Final Fantasy series. As part of Universal Studios Japan's Cool Japan initiative, this attraction combines a traditional roller coaster with VR headsets to transport riders into various iconic settings from the franchise. Guests board the ride, modeled after a Final Fantasy airship, and don VR headsets that provide a 360-degree view of the game’s universe. The experience includes encounters with characters like Cloud and Sephiroth from Final Fantasy VII, among others from different installments of the series. The visual content is produced by Square Enix’s Visual Works, known for creating the cutscenes in the games.<p>
+    	</div>
+    </div>
+
+
+</body>
